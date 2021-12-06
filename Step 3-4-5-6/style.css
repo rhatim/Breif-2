@@ -1,0 +1,116 @@
+*{
+    font-family: "Arial", "Helvetica", "sans-serif" ;
+    background-color:#fffcf8 ;
+
+}
+.container
+{
+    display: flex;
+    margin: 20px 0px 0px 10px;
+}
+.list1
+{ 
+    display:flex;
+    margin:5px;
+    align-items: center;
+    font-weight: bold;
+} 
+.logo
+{
+    height:80px;
+    width: 150px;
+
+}
+ul
+{
+    list-style: none;
+}
+.list1{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+   text-decoration:underline;
+}
+.breadcrumbs
+{
+    list-style: none;
+    padding:10px;
+    display: flex;
+}
+.breadcrumbs li
+{
+ padding: 10px;
+ font-weight: bold;
+
+}
+.breadcrumbs li+li:before
+{
+padding: 10px;
+color:black;
+content: "/\00a0";
+font-weight: bold;
+}
+.text
+{
+    margin: 10px;
+
+}
+.text h1
+{
+    font-size: 30px;
+}
+.text p
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+.green
+{
+    color:green;
+}
+.grey
+{
+    color: grey;
+}
+.image
+{
+    height:180px ;
+    width:180px ;
+    margin: 10px;
+    padding-top: 10px;
+}
+.cart
+{   width: 200px;
+    height: 320px;
+    margin-left:10px ;
+    border: solid;
+    border-color:grey ;
+}
+.underline
+{
+    font-weight: bold;
+}
+.underline:hover
+{
+    text-decoration: underline;
+}
+.title
+{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.list li
+{
+    font-size:15px ;
+
+}
+.products
+{
+    display: flex;
+}
