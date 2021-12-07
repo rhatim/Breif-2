@@ -86,10 +86,14 @@ font-weight: bold;
 }
 .cart
 {   width: 200px;
-    height: 320px;
+    height: 340px;
     margin-left:10px ;
     border: solid;
-    border-color:grey ;
+    border-color:grey ; 
+}
+.cart h2 
+{
+    padding-left: 10px;
 }
 .underline
 {
@@ -99,11 +103,9 @@ font-weight: bold;
 {
     text-decoration: underline;
 }
-.title
-{
-    font-weight: bold;
-    font-size: 20px;
 
+.list{
+    padding-left: 10px;
 }
 .list li
 {
