@@ -119,3 +119,9 @@ font-weight: bold;
 {
     display: flex;
 }
+@media only screen and (max-width: 774px) {
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+  }
