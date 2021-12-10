@@ -4,12 +4,12 @@
 }
 body
 {
-    background-color: wh;
-}
+    background: linear-gradient(#d2e279, #6d76dd);}
 .container
 {
     display: flex;
     margin: 20px 0px 0px 10px;
+    background-color:rgba(209, 209, 223, 0.507) ;
 }
 .list1
 { 
@@ -38,6 +38,12 @@ a{
 }
 a:hover{
    text-decoration:underline;
+}
+.breadcrumbs
+{
+    list-style: none;
+    padding:10px;
+    display: flex;
 }
 .breadcrumbs
 {
@@ -82,17 +88,19 @@ font-weight: bold;
 }
 .image
 {
-    height:238px ;
-    width:294px ;
+    height:267px ;
+    width:254px ;
     margin: 10px;
     padding-top: 10px;
 }
 .cart
-{   width: 314px;
-    height: 421px;
-    margin-left:7px ;
+{   width: 274px;
+    height: 460px;
+    margin:5px 20px 7px 5px ;
     border: solid;
-    border-color:grey ; 
+    border-color:grey ;
+    background-color: rgba(238, 238, 245, 0.521);
+    
 }
 .cart h2 
 {
@@ -119,9 +127,112 @@ font-weight: bold;
 {
     display: flex;
 }
-@media only screen and (max-width: 774px) {
-    .products {
-        display: flex;
+@media only screen and (max-width: 600px) {
+   body 
+   {
+       width: 50%;
+   }
+    .products
+   {
+       flex-direction: column;
+   }
+   .cart
+   {
+    margin: 5px 0px 20px 15px;
+   }
+   .container
+   {
+       width: 25px;
+   }
+   .list1 li
+   {
+       font-size: 15px;
+       margin:7px 5px 5px 7px ;
+      
+      
+   }
+   .text P
+   {
+font-size: 15px;
+width: 340px;
+   }
+   .logo
+   {
+       width: 70px;
+       height: 50px;
+   }
+  
+  .list1 {
+    font-size: 14px;
+    margin: 5px 10px 5px 10px;
+}
+.cart
+{
+    width: 250px;
+    height: 400px;
+    margin-left: 60px;
+}
+.image
+{
+    width: 225px;
+    margin-left: 15px;
+    height: 200px;
+}
+span{
+    margin-top: 5px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width:1000px) {
+    body 
+    {
+        width: 50%;
+    }
+     .products
+    {
         flex-direction: column;
     }
-  }
+    .cart
+    {
+     margin: 5px 0px 20px 155px;
+    }
+    .container
+    {
+        width: 50px;
+    }
+    .list1 li
+    {
+        font-size: 24px;
+        margin:15px 10px 10px 15px ;
+       
+       
+    }
+    .text P
+    {
+ font-size: 15px;
+ width: 550px;
+    }
+    .logo
+    {
+        width: 160px;
+        height: 100px;
+    }
+   
+   .list1 {
+     font-size: 14px;
+     margin: 10px 20px 5px 17px;
+ }
+ .cart
+ {
+     width: 500px;
+     height: 600px;
+ }
+ .image
+ {
+     width: 450px;
+     margin-left: 30px;
+     height: 400px;
+ }
+ span{
+     margin-top: 10px;
+ }
+}
